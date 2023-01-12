@@ -1,0 +1,54 @@
+body{
+    background-color: #f5f3f3;
+}
+
+/* .btn{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+} */
+
+.img-part{
+    background-image: url(../image/one.jpg);
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 5/2;
+}
+
+img {
+    aspect-ratio: 4/2;
+    object-fit: cover;
+}
+
+i{
+    cursor: pointer; 
+}
+
+h5{
+    color: rgb(11, 3, 84);
+}
+.author{
+    color: rgb(11, 3, 84);
+}
+.date{
+    color: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+span,
+.iqone-part>i{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.fa-solid:hover {
+    transform: scale(1.5)!important;
+    -webkit-transform: scale(1.5)!important;
+    -moz-transform: scale(1.5)!important;
+    -ms-transform: scale(1.5)!important;
+    -o-transform: scale(1.5)!important;
+    transition: all 0.01s;
+    -webkit-transition: all 0.01s;
+    -moz-transition: all 0.01s;
+    -ms-transition: all 0.01s;
+    -o-transition: all 0.01s;
+}
+
