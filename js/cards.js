@@ -1,6 +1,7 @@
 const Data =document.querySelector('.row');
-import{DataContainer} from "../js/json.js";
-console.log(DataContainer[1].author)
+
+let myResponse = await fetch('./cards.json');
+let DataContainer = await myResponse.json();
 showData()
 
 const heartIcones =document.querySelectorAll('.fa-heart')
@@ -9,17 +10,6 @@ const heartNumbers =document.querySelectorAll('.heart-number')
 
 
 
-
-
-
-// async function getData(){
-//   let myResponse = await fetch('cards.json');
-//   let myData = await myResponse.json();
-//   console.log(myData)
-
-// }
-
-// getData();
 
 
  function showData(){
