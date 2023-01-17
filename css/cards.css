@@ -2,22 +2,27 @@ body{
     background-color: #f5f3f3;
 }
 
-/* .btn{
+
+
+
+
+.img-part img {
+    width: 100%;
+    aspect-ratio: 5/2;
+    object-fit: cover;
+    
+}
+
+.img-part .btn{
     position: absolute;
     top: 15px;
     left: 20px;
-} */
-
-.img-part{
-    background-image: url(../image/one.jpg);
-    background-position: center;
-    background-size: cover;
-    aspect-ratio: 5/2;
 }
 
-img {
-    aspect-ratio: 4/2;
-    object-fit: cover;
+.img-part i{
+    position: absolute;
+    top: 15px;
+    right: 20px;
 }
 
 i{
